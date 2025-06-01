@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>ProjectName</RootNamespace>
+        <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Dedsi.CleanArchitecture.Domain" Version="$(DedsiFrameworkVersion)" />
+        <PackageReference Include="Dedsi.SqlSugar" Version="$(DedsiFrameworkVersion)" />
+    </ItemGroup>
+
+</Project>

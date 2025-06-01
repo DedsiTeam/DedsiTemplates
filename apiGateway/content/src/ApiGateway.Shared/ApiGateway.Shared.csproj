@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>ApiGateway</RootNamespace>
+        <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Dedsi.Ddd.Domain.Shared" Version="$(DedsiFrameworkVersion)" />
+        <PackageReference Include="Dedsi.Ddd.Application.Contracts" Version="$(DedsiFrameworkVersion)" />
+		<PackageReference Include="Dedsi.Ddd.CQRS" Version="$(DedsiFrameworkVersion)" />
+	</ItemGroup>
+
+</Project>

@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>ApiGateway</RootNamespace>
+        <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ApiGateway.Domain\ApiGateway.Domain.csproj" />
+      <ProjectReference Include="..\ApiGateway.Infrastructure\ApiGateway.Infrastructure.csproj" />
+      <ProjectReference Include="..\ApiGateway.Shared\ApiGateway.Shared.csproj" />
+    </ItemGroup>
+
+</Project>

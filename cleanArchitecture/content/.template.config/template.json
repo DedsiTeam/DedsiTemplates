@@ -1,0 +1,14 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Cohen Wang",
+    "classifications": [ "Web API" ],
+    "tags": {
+        "language": "C#",
+        "type":"project"
+    },
+    "name": "Dedsi.CleanArchitecture",
+    "identity": "Dedsi.CleanArchitecture",
+    "shortName": "Dedsi.CA",
+    "sourceName": "ProjectName",
+    "preferNameDirectory": true
+}

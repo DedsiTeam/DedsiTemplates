@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>ProjectNameCQRS</RootNamespace>
+        <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ProjectNameCQRS.Domain\ProjectNameCQRS.Domain.csproj" />
+      <ProjectReference Include="..\ProjectNameCQRS.Infrastructure\ProjectNameCQRS.Infrastructure.csproj" />
+      <ProjectReference Include="..\ProjectNameCQRS.Shared\ProjectNameCQRS.Shared.csproj" />
+    </ItemGroup>
+
+</Project>

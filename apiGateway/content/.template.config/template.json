@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Cohen Wang",
+  "classifications": [ "Web API Gateway" ],
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "name": "Dedsi.ApiGateway",
+  "identity": "Dedsi.ApiGateway",
+  "shortName": "Dedsi.ApiGateway",
+  "sourceName": "ApiGateway",
+  "preferNameDirectory": true
+}

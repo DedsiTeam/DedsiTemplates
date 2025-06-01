@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>ProjectNameCQRS</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ProjectNameCQRS.Domain\ProjectNameCQRS.Domain.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Dedsi.CleanArchitecture.Infrastructure" Version="$(DedsiFrameworkVersion)" />
+    </ItemGroup>
+
+</Project>
